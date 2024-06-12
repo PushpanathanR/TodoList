@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  background-color: #25283D;
+  font-weight: bold;
+}
+.title{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.task {
+  font-size: 20px;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  border-radius: 8px;
+  margin-right: 10px;
+  background-color: #e6e6e6;
+  font-weight: bold;
+}
+.todolist {
+  display: grid;
+  justify-content: center;
+  text-align: left;
+}
+.task:hover {
+  background-color: white;
+}
+
+.date {
+  font-size: 20px;
+  border: none;
+  padding: 3.2px 15px 4px 15px;
+  border-radius: 8px;
+  margin-right: 10px;
+  background-color: #ffbc3a;
+  color: black;
+  font-weight: bold;
+}
+
+.date:hover {
+  background-color: #f7cb74;
+  cursor: pointer;
+}
+
+.add-button, .delete-button {
+  font-size: 20px;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.add-button{
+  background-color: #76BED0;
+  color: black;
+}
+
+.add-button:hover{
+  background-color: #a0eaff;
+  cursor: pointer;
+}
+
+.delete-button {
+  margin-left: 15px;
+  background-color: #F55D3E;
+}
+
+.delete-button:hover {
+  background-color: #ff856c;
+  cursor: pointer;
+}
+
+.task-list {
+  font-size: 25px;
+  color: white;
+}
+
